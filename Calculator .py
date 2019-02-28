@@ -17,7 +17,7 @@ def divide(x, y):
    return x / y
 
 print("Select operation.")
-print("1.Add")
+print("1.ADD")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
@@ -41,3 +41,5 @@ elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
 else:
    print("Invalid input")
+
+print("Goodjob")
